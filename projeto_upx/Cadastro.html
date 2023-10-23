@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" type="text/css" href="css/styleCadastro.css">
+
+    <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+     <script src="script/cadastro.js"></script>
+
+    <title>Document</title>
+</head>
+<body>
+
+    <div class="container">
+        <div class="card-title">
+            <p>Cadastre-se</p>
+        </div>
+        <div class="form-cadastro">
+            <form action="#" id="cadastrar">
+                <div class="item-form">
+                    <input type="text" id="nome" name="nome" placeholder="Nome Completo"> 
+                </div>
+                <div class="item-form">
+                    <input type="text" id="cpf" name="cpf" placeholder="CPF"> 
+                </div>
+                <div class="item-form">     
+                    <input type="text" id="senha" name="senha" placeholder="Senha">
+                    <input type="text" id="confirmarsenha" name="confirmarsenha" placeholder="Confirmar senha">
+                </div>
+                <div class="item-form">     
+                    <input type="text" id="email" name="email" placeholder="E-mail" >
+                </div>
+                <div class="item-form" style="background-color: white; padding: 5%; border-radius: 10px;" >
+                    <img  src="midia/image.png" width="25" height="25" >  
+                    <input type="file" id="foto" name="foto" placeholder="Foto de perfil" accept="image/ ">
+                </div>
+                <div id ="custom-file-input" class="item-form" style="justify-content: right;">
+                    <button type="submit" class="btn" id="btn-cad">Criar</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+
+   
+</body>
+</html>

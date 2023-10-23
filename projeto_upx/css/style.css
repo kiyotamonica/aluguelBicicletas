@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200;300;500;600&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Dosis', sans-serif;
+}
+body
+{
+    background-color: grey;
+}
+.container
+{
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(90deg, #164D59 0.79%, #88BF96 99.26%);
+    margin: 0 auto;
+    max-width: 1200px;
+    min-height: 100vh;
+   overflow: hidden;
+}
+.text{
+    color:white;
+    font-size: 20px;
+    padding: 10px;
+    text-align: center;
+}
+nav{
+    background-color: transparent;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+}
+nav div img{
+    width: 50px;
+    height: 50px;
+}
+nav .nav-item{
+    padding: 10px 20px;
+}
+
+.content-map{
+    flex-grow: 1;
+    height: 50px;
+    width: 100%;
+    max-width: 1200px;
+    transition: 300ms;
+    display: grid;
+}
+.pagina_iniciar{
+    background: linear-gradient(180deg, #164D59 0%, #88BF96 100%);
+    grid-column: 1;
+    grid-row: 2;
+    align-self: end;
+    z-index: 1;
+    width: 90%;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 10px auto;
+    padding: 10px 0px;
+    border-radius: 20px;
+    overflow-y: scroll;
+    max-height: 95%;
+    box-sizing: border-box;
+}
+#map{
+    height: 100%;
+    width: 100%;
+    border-radius: 30px 30px 0px 0px;
+    grid-column: 1;
+    grid-row: 1/3;
+}
+.map-down{
+    transform:  translateY(100%);
+}
+
+.menu{
+    display: none;
+}
+
+.item-menu{
+    text-align: center;
+    margin: 25px auto;
+    padding: 0 50px;
+    
+}
+.item-menu a p{
+    text-decoration: none;
+    color: white;
+    background-color: #0B3140;;
+    padding: 15px;
+    border-radius: 40px;
+    border: 2px solid #000000;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
+    font-weight: bold;
+    font-size: 1.2em;
+}
+.item-menu-top{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.item-menu-top img{
+    height: 100px;
+    width: 100px;
+}
+
+.item-menu-top p{
+    text-align: center;
+}
+
+.show{
+    display: block;
+}
+
+.hide{
+    display: none !important;
+}
+a{
+    text-decoration: none;
+}
+
+.info{
+    font-size: 1.5em;
+    font-weight: bold;
+}

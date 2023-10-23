@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200;300;500;600&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Dosis', sans-serif;
+}
+
+#fundoA{
+width: 100%;
+min-height: 55vh;
+background: linear-gradient(135.86deg, #164D59 17.86%, rgba(176, 244, 194, 0.62) 85.75%);
+border-radius: 100px 0px 0px 0px;
+flex-grow: 1;
+text-align: center;
+} 
+      
+#fundoB{
+background: #0B3140;
+width: 100%;
+min-height: 100vh;
+top: 50%;
+display: flex;
+flex-direction: column;
+
+}
+#gifhome{
+width: 100%;
+}
+
+ 
+#titulo{
+text-align: center;
+font-family: 'Fredoka One', cursive;
+letter-spacing: 0.01em;
+text-transform: capitalize;
+color: rgba(255, 255, 255, 0.9);
+padding-top: 5vh;
+font-size: 50px;
+margin-bottom: 40px;
+
+}
+             
+.infos{
+border-radius: 13px;
+height: 70%;
+width: 70%;
+color: Gray;
+background-color: white;
+margin: 0 auto;
+margin-top: 20px;
+}
+      
+.input{
+border: 0px;
+outline: 0px;
+margin: 2px;
+width: 60%;
+padding: 5px;
+font-size: 120%;
+}
+
+      
+.input:focus, input:focus, select:focus  {
+border: 0px;
+}
+      
+#maindiv{
+display: flex;
+flex-direction: column;
+              
+}
+      
+#salvar{
+        
+margin-right: 10px;
+margin-top: 20px;
+}
+      
+.botao{
+box-sizing: border-box;
+width: 70%;
+min-height: 40px;
+background: #0B3140;
+border: 2px solid #000000;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
+border-radius: 20px;
+font-family: 'Fredoka One', cursive;
+color: white;
+}
+
+.botao:hover{
+background-color: #0b3140a1;
+transition-delay: 100ms;
+}
+
+.botaodiv{
+padding-top: 20px;
+}
+
+#salvardiv{
+margin-top: 5%;
+margin-left: -40%;
+margin-bottom: 5%;
+}
+      

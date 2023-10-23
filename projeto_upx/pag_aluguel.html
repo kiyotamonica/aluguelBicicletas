@@ -1,0 +1,679 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Empréstimo</title>
+    <!--CSS-->
+    <link rel="stylesheet" href="css\stilo_aluguel.css">
+    <!--SWIPER -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css" />
+    <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script src="script/mostraBicicleta.js"></script>
+</head>
+<body>
+        <section>
+
+            <div class="swiper mySwiper container">
+                <div class="swiper-wrapper conteudo">
+                    
+                    <!--INICIO DAS UNIDADES-->
+                    <div class="swiper-slide cards">
+                        <div class="conteudo_cards">
+                            <div class="imagem">
+                                <img src="midia/praca_los_angeles.png" alt="Praça Los Angeles">
+                            </div>
+                            <div class="nome_endereco">
+                                <span class="nome">Praça Los Angeles</span>
+                                <span class="endereco">Avenida Visconde do Rio Branco</span>
+                                <span class="bikes_disponiveis">Bicicletas Disponíveis: XXXX</span>
+                                <span class="local_devolucao">Onde será a devolução da bike ?</span>
+                                <div class="select">
+                                    <select name="format" id="format">
+                                        <option selected disabled>Escolha a unidade</option>
+                                        <option value="praca_los_angeles">Praça Los Angeles</option>
+                                        <option value="escultura_bicicleta">Escultura Bicicleta</option>
+                                        <option value="terminal_santo_antonio">Terminal Santo Antônio</option>
+                                        <option value="bombeiros">Bombeiros</option>
+                                        <option value="parque_das_aguas">Parque das Águas</option>
+                                        <option value="paco_municipal">Paço Municipal</option>
+                                        <option value="uph_zona_norte">UPH Zona Norte</option>
+                                        <option value="maria_antonia_prado">Maria Antônia Prado</option>
+                                        <option value="shopping_cidade">Shopping Cidade</option>
+                                        <option value="casa_do_cidadao_ipanema">Casa do Cidadão Ipanema</option>
+                                        <option value="terminal_sao_bento">Terminal São Bento</option>
+                                        <option value="trujilo">Trujilo</option>
+                                        <option value="wanel_ville">Wanel Ville</option>
+                                        <option value="parque_dos_espanhois">Parque dos Espanhóis</option>
+                                        <option value="parque_do_campolim">Parque do Campolim</option>
+                                    </select>
+                                </div>
+                            </div>
+
+                            <div class="botao">
+                                <button class="emprestar"><a style="text-decoration: none ;color: white;" href="Home.html"> Empresta</a>r</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide cards">
+                        <div class="conteudo_cards">
+                            <div class="imagem">
+                                <img src="midia/escultura_bicicleta.png" alt="Escultura Bicicleta">
+                            </div>
+
+                            <div class="nome_endereco">
+                                <span class="nome">Escultura Bicicleta</span>
+                                <span class="endereco">Avenida Dom Aguirre</span>
+                                <span class="endereco">ao lado do Terminal São Paulo</span>
+                                <span class="bikes_disponiveis">Bicicletas Disponíveis: XXXX</span>
+                                <span class="local_devolucao">Onde será a devolução da bike ?</span>
+                                <div class="select">
+                                    <select name="format" id="format">
+                                        <option selected disabled>Escolha a unidade</option>
+                                        <option value="praca_los_angeles">Praça Los Angeles</option>
+                                        <option value="escultura_bicicleta">Escultura Bicicleta</option>
+                                        <option value="terminal_santo_antonio">Terminal Santo Antônio</option>
+                                        <option value="bombeiros">Bombeiros</option>
+                                        <option value="parque_das_aguas">Parque das Águas</option>
+                                        <option value="paco_municipal">Paço Municipal</option>
+                                        <option value="uph_zona_norte">UPH Zona Norte</option>
+                                        <option value="maria_antonia_prado">Maria Antônia Prado</option>
+                                        <option value="shopping_cidade">Shopping Cidade</option>
+                                        <option value="casa_do_cidadao_ipanema">Casa do Cidadão Ipanema</option>
+                                        <option value="terminal_sao_bento">Terminal São Bento</option>
+                                        <option value="trujilo">Trujilo</option>
+                                        <option value="wanel_ville">Wanel Ville</option>
+                                        <option value="parque_dos_espanhois">Parque dos Espanhóis</option>
+                                        <option value="parque_do_campolim">Parque do Campolim</option>
+                                    </select>
+                                </div>
+                            </div>
+
+                            <div class="botao">
+                                <button class="emprestar" ><a style="text-decoration: none;color:white" href="Home.html">Emprestar</a></button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide cards">
+                        <div class="conteudo_cards">
+                            <div class="imagem">
+                                <img src="midia/terminal_santo_antonio.png" alt="Terminal Santo Antônio">
+                            </div>
+
+                            <div class="nome_endereco">
+                                <span class="nome">Terminal Santo Antônio</span>
+                                <span class="endereco">Avenida Doutor Afonso Vergueiro</span>
+                                <span class="bikes_disponiveis">Bicicletas Disponíveis: XXXX</span>
+                                <span class="local_devolucao">Onde será a devolução da bike ?</span>
+                                <div class="select">
+                                    <select name="format" id="format">
+                                        <option selected disabled>Escolha a unidade</option>
+                                        <option value="praca_los_angeles">Praça Los Angeles</option>
+                                        <option value="escultura_bicicleta">Escultura Bicicleta</option>
+                                        <option value="terminal_santo_antonio">Terminal Santo Antônio</option>
+                                        <option value="bombeiros">Bombeiros</option>
+                                        <option value="parque_das_aguas">Parque das Águas</option>
+                                        <option value="paco_municipal">Paço Municipal</option>
+                                        <option value="uph_zona_norte">UPH Zona Norte</option>
+                                        <option value="maria_antonia_prado">Maria Antônia Prado</option>
+                                        <option value="shopping_cidade">Shopping Cidade</option>
+                                        <option value="casa_do_cidadao_ipanema">Casa do Cidadão Ipanema</option>
+                                        <option value="terminal_sao_bento">Terminal São Bento</option>
+                                        <option value="trujilo">Trujilo</option>
+                                        <option value="wanel_ville">Wanel Ville</option>
+                                        <option value="parque_dos_espanhois">Parque dos Espanhóis</option>
+                                        <option value="parque_do_campolim">Parque do Campolim</option>
+                                    </select>
+                                </div>
+                            </div>
+
+                            <div class="botao">
+                                <button class="emprestar" ><a style="text-decoration: none;color:white" href="Home.html">Emprestar</a></button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide cards">
+                        <div class="conteudo_cards">
+                            <div class="imagem">
+                                <img src="midia/bombeiros.png" alt="Unidade Bombeiros">
+                            </div>
+
+                            <div class="nome_endereco">
+                                <span class="nome">Bombeiros</span>
+                                <span class="endereco">Avenida Dom Aguirre</span>
+                                <span class="endereco">próximo ao Corpo de Bombeiros</span>
+                                <span class="bikes_disponiveis">Bicicletas Disponíveis: XXXX</span>
+                                <span class="local_devolucao">Onde será a devolução da bike ?</span>
+                                <div class="select">
+                                    <select name="format" id="format">
+                                        <option selected disabled>Escolha a unidade</option>
+                                        <option value="praca_los_angeles">Praça Los Angeles</option>
+                                        <option value="escultura_bicicleta">Escultura Bicicleta</option>
+                                        <option value="terminal_santo_antonio">Terminal Santo Antônio</option>
+                                        <option value="bombeiros">Bombeiros</option>
+                                        <option value="parque_das_aguas">Parque das Águas</option>
+                                        <option value="paco_municipal">Paço Municipal</option>
+                                        <option value="uph_zona_norte">UPH Zona Norte</option>
+                                        <option value="maria_antonia_prado">Maria Antônia Prado</option>
+                                        <option value="shopping_cidade">Shopping Cidade</option>
+                                        <option value="casa_do_cidadao_ipanema">Casa do Cidadão Ipanema</option>
+                                        <option value="terminal_sao_bento">Terminal São Bento</option>
+                                        <option value="trujilo">Trujilo</option>
+                                        <option value="wanel_ville">Wanel Ville</option>
+                                        <option value="parque_dos_espanhois">Parque dos Espanhóis</option>
+                                        <option value="parque_do_campolim">Parque do Campolim</option>
+                                    </select>
+                                </div>
+                            </div>
+
+                            <div class="botao">
+                                <button class="emprestar" ><a style="text-decoration: none;color:white" href="Home.html">Emprestar</a></button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide cards">
+                        <div class="conteudo_cards">
+                            <div class="imagem">
+                                <img src="midia/parque_das_aguas.png" alt="Parque das Águas">
+                            </div>
+
+                            <div class="nome_endereco">
+                                <span class="nome">Parque das Águas</span>
+                                <span class="endereco">Avenida Dom Aguirre</span>
+                                <span class="bikes_disponiveis">Bicicletas Disponíveis: XXXX</span>
+                                <span class="local_devolucao">Onde será a devolução da bike ?</span>
+                                <div class="select">
+                                    <select name="format" id="format">
+                                        <option selected disabled>Escolha a unidade</option>
+                                        <option value="praca_los_angeles">Praça Los Angeles</option>
+                                        <option value="escultura_bicicleta">Escultura Bicicleta</option>
+                                        <option value="terminal_santo_antonio">Terminal Santo Antônio</option>
+                                        <option value="bombeiros">Bombeiros</option>
+                                        <option value="parque_das_aguas">Parque das Águas</option>
+                                        <option value="paco_municipal">Paço Municipal</option>
+                                        <option value="uph_zona_norte">UPH Zona Norte</option>
+                                        <option value="maria_antonia_prado">Maria Antônia Prado</option>
+                                        <option value="shopping_cidade">Shopping Cidade</option>
+                                        <option value="casa_do_cidadao_ipanema">Casa do Cidadão Ipanema</option>
+                                        <option value="terminal_sao_bento">Terminal São Bento</option>
+                                        <option value="trujilo">Trujilo</option>
+                                        <option value="wanel_ville">Wanel Ville</option>
+                                        <option value="parque_dos_espanhois">Parque dos Espanhóis</option>
+                                        <option value="parque_do_campolim">Parque do Campolim</option>
+                                    </select>
+                                </div>
+                            </div>
+
+                            <div class="botao">
+                                <button class="emprestar" ><a style="text-decoration: none;color:white" href="Home.html">Emprestar</a></button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide cards">
+                        <div class="conteudo_cards">
+                            <div class="imagem">
+                                <img src="midia/paco_municipal.png" alt="Paço Municipal">
+                            </div>
+
+                            <div class="nome_endereco">
+                                <span class="nome">Paço Municipal</span>
+                                <span class="endereco">próximo ao Teatro Municipal</span>
+                                <span class="endereco">Teotonio Vilela</span>
+                                <span class="bikes_disponiveis">Bicicletas Disponíveis: XXXX</span>
+                                <span class="local_devolucao">Onde será a devolução da bike ?</span>
+                                <div class="select">
+                                    <select name="format" id="format">
+                                        <option selected disabled>Escolha a unidade</option>
+                                        <option value="praca_los_angeles">Praça Los Angeles</option>
+                                        <option value="escultura_bicicleta">Escultura Bicicleta</option>
+                                        <option value="terminal_santo_antonio">Terminal Santo Antônio</option>
+                                        <option value="bombeiros">Bombeiros</option>
+                                        <option value="parque_das_aguas">Parque das Águas</option>
+                                        <option value="paco_municipal">Paço Municipal</option>
+                                        <option value="uph_zona_norte">UPH Zona Norte</option>
+                                        <option value="maria_antonia_prado">Maria Antônia Prado</option>
+                                        <option value="shopping_cidade">Shopping Cidade</option>
+                                        <option value="casa_do_cidadao_ipanema">Casa do Cidadão Ipanema</option>
+                                        <option value="terminal_sao_bento">Terminal São Bento</option>
+                                        <option value="trujilo">Trujilo</option>
+                                        <option value="wanel_ville">Wanel Ville</option>
+                                        <option value="parque_dos_espanhois">Parque dos Espanhóis</option>
+                                        <option value="parque_do_campolim">Parque do Campolim</option>
+                                    </select>
+                                </div>
+                            </div>
+
+                            <div class="botao">
+                                <button class="emprestar" ><a style="text-decoration: none;color:white" href="Home.html">Emprestar</a></button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide cards">
+                        <div class="conteudo_cards">
+                            <div class="imagem">
+                                <img src="midia/uph_zona_norte.png" alt="UPH Zona Norte">
+                            </div>
+
+                            <div class="nome_endereco">
+                                <span class="nome">Unidade Pré-Hospitalar (UPH)</span>
+                                <span class="nome">Zona Norte</span>
+                                <span class="endereco">Avenida Itavuvu</span>
+                                <span class="bikes_disponiveis">Bicicletas Disponíveis: XXXX</span>
+                                <span class="local_devolucao">Onde será a devolução da bike ?</span>
+                                <div class="select">
+                                    <select name="format" id="format">
+                                        <option selected disabled>Escolha a unidade</option>
+                                        <option value="praca_los_angeles">Praça Los Angeles</option>
+                                        <option value="escultura_bicicleta">Escultura Bicicleta</option>
+                                        <option value="terminal_santo_antonio">Terminal Santo Antônio</option>
+                                        <option value="bombeiros">Bombeiros</option>
+                                        <option value="parque_das_aguas">Parque das Águas</option>
+                                        <option value="paco_municipal">Paço Municipal</option>
+                                        <option value="uph_zona_norte">UPH Zona Norte</option>
+                                        <option value="maria_antonia_prado">Maria Antônia Prado</option>
+                                        <option value="shopping_cidade">Shopping Cidade</option>
+                                        <option value="casa_do_cidadao_ipanema">Casa do Cidadão Ipanema</option>
+                                        <option value="terminal_sao_bento">Terminal São Bento</option>
+                                        <option value="trujilo">Trujilo</option>
+                                        <option value="wanel_ville">Wanel Ville</option>
+                                        <option value="parque_dos_espanhois">Parque dos Espanhóis</option>
+                                        <option value="parque_do_campolim">Parque do Campolim</option>
+                                    </select>
+                                </div>
+                            </div>
+
+                            <div class="botao">
+                                <button class="emprestar" ><a style="text-decoration: none;color:white" href="Home.html">Emprestar</a></button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide cards">
+                        <div class="conteudo_cards">
+                            <div class="imagem">
+                                <img src="midia/maria_antonia_prado.png" alt="Maria Antonia Prado">
+                            </div>
+
+                            <div class="nome_endereco">
+                                <span class="nome">Maria Antonia Prado</span>
+                                <span class="endereco">Avenida Itavuvu, 2.560</span>
+                                <span class="bikes_disponiveis">Bicicletas Disponíveis: XXXX</span>
+                                <span class="local_devolucao">Onde será a devolução da bike ?</span>
+                                <div class="select">
+                                    <select name="format" id="format">
+                                        <option selected disabled>Escolha a unidade</option>
+                                        <option value="praca_los_angeles">Praça Los Angeles</option>
+                                        <option value="escultura_bicicleta">Escultura Bicicleta</option>
+                                        <option value="terminal_santo_antonio">Terminal Santo Antônio</option>
+                                        <option value="bombeiros">Bombeiros</option>
+                                        <option value="parque_das_aguas">Parque das Águas</option>
+                                        <option value="paco_municipal">Paço Municipal</option>
+                                        <option value="uph_zona_norte">UPH Zona Norte</option>
+                                        <option value="maria_antonia_prado">Maria Antônia Prado</option>
+                                        <option value="shopping_cidade">Shopping Cidade</option>
+                                        <option value="casa_do_cidadao_ipanema">Casa do Cidadão Ipanema</option>
+                                        <option value="terminal_sao_bento">Terminal São Bento</option>
+                                        <option value="trujilo">Trujilo</option>
+                                        <option value="wanel_ville">Wanel Ville</option>
+                                        <option value="parque_dos_espanhois">Parque dos Espanhóis</option>
+                                        <option value="parque_do_campolim">Parque do Campolim</option>
+                                    </select>
+                                </div>
+                            </div>
+
+                            <div class="botao">
+                                <button class="emprestar" ><a style="text-decoration: none;color:white" href="Home.html">Emprestar</a></button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide cards">
+                        <div class="conteudo_cards">
+                            <div class="imagem">
+                                <img src="midia/shopping_cidade.png" alt="Unidade Shopping Cidade">
+                            </div>
+
+                            <div class="nome_endereco">
+                                <span class="nome">Shopping Cidade</span>
+                                <span class="endereco">Avenida Itavuvu, 3.240</span>
+                                <span class="bikes_disponiveis">Bicicletas Disponíveis: XXXX</span>
+                                <span class="local_devolucao">Onde será a devolução da bike ?</span>
+                                <div class="select">
+                                    <select name="format" id="format">
+                                        <option selected disabled>Escolha a unidade</option>
+                                        <option value="praca_los_angeles">Praça Los Angeles</option>
+                                        <option value="escultura_bicicleta">Escultura Bicicleta</option>
+                                        <option value="terminal_santo_antonio">Terminal Santo Antônio</option>
+                                        <option value="bombeiros">Bombeiros</option>
+                                        <option value="parque_das_aguas">Parque das Águas</option>
+                                        <option value="paco_municipal">Paço Municipal</option>
+                                        <option value="uph_zona_norte">UPH Zona Norte</option>
+                                        <option value="maria_antonia_prado">Maria Antônia Prado</option>
+                                        <option value="shopping_cidade">Shopping Cidade</option>
+                                        <option value="casa_do_cidadao_ipanema">Casa do Cidadão Ipanema</option>
+                                        <option value="terminal_sao_bento">Terminal São Bento</option>
+                                        <option value="trujilo">Trujilo</option>
+                                        <option value="wanel_ville">Wanel Ville</option>
+                                        <option value="parque_dos_espanhois">Parque dos Espanhóis</option>
+                                        <option value="parque_do_campolim">Parque do Campolim</option>
+                                    </select>
+                                </div>
+                            </div>
+
+                            <div class="botao">
+                                <button class="emprestar" ><a style="text-decoration: none;color:white" href="Home.html">Emprestar</a></button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide cards">
+                        <div class="conteudo_cards">
+                            <div class="imagem">
+                                <img src="midia/casa_do_cidadao_ipanema.png" alt="Casa do Cidadao Ipanema">
+                            </div>
+
+                            <div class="nome_endereco">
+                                <span class="nome">Casa do Cidadão Ipanema</span>
+                                <span class="endereco">Avenida Ipanema, 3.300</span>
+                                <span class="bikes_disponiveis">Bicicletas Disponíveis: XXXX</span>
+                                <span class="local_devolucao">Onde será a devolução da bike ?</span>
+                                <div class="select">
+                                    <select name="format" id="format">
+                                        <option selected disabled>Escolha a unidade</option>
+                                        <option value="praca_los_angeles">Praça Los Angeles</option>
+                                        <option value="escultura_bicicleta">Escultura Bicicleta</option>
+                                        <option value="terminal_santo_antonio">Terminal Santo Antônio</option>
+                                        <option value="bombeiros">Bombeiros</option>
+                                        <option value="parque_das_aguas">Parque das Águas</option>
+                                        <option value="paco_municipal">Paço Municipal</option>
+                                        <option value="uph_zona_norte">UPH Zona Norte</option>
+                                        <option value="maria_antonia_prado">Maria Antônia Prado</option>
+                                        <option value="shopping_cidade">Shopping Cidade</option>
+                                        <option value="casa_do_cidadao_ipanema">Casa do Cidadão Ipanema</option>
+                                        <option value="terminal_sao_bento">Terminal São Bento</option>
+                                        <option value="trujilo">Trujilo</option>
+                                        <option value="wanel_ville">Wanel Ville</option>
+                                        <option value="parque_dos_espanhois">Parque dos Espanhóis</option>
+                                        <option value="parque_do_campolim">Parque do Campolim</option>
+                                    </select>
+                                </div>
+                            </div>
+
+                            <div class="botao">
+                                <button class="emprestar" ><a style="text-decoration: none;color:white" href="Home.html">Emprestar</a></button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide cards">
+                        <div class="conteudo_cards">
+                            <div class="imagem">
+                                <img src="midia/sao_bento.png" alt="Unidade Terminal Sao Bento">
+                            </div>
+
+                            <div class="nome_endereco">
+                                <span class="nome">Terminal São Bento</span>
+                                <span class="endereco">Rua Comendador Genésio Rodrigues</span>
+                                <span class="endereco">em frente à estação do BRT</span>
+                                <span class="bikes_disponiveis">Bicicletas Disponíveis: XXXX</span>
+                                <span class="local_devolucao">Onde será a devolução da bike ?</span>
+                                <div class="select">
+                                    <select name="format" id="format">
+                                        <option selected disabled>Escolha a unidade</option>
+                                        <option value="praca_los_angeles">Praça Los Angeles</option>
+                                        <option value="escultura_bicicleta">Escultura Bicicleta</option>
+                                        <option value="terminal_santo_antonio">Terminal Santo Antônio</option>
+                                        <option value="bombeiros">Bombeiros</option>
+                                        <option value="parque_das_aguas">Parque das Águas</option>
+                                        <option value="paco_municipal">Paço Municipal</option>
+                                        <option value="uph_zona_norte">UPH Zona Norte</option>
+                                        <option value="maria_antonia_prado">Maria Antônia Prado</option>
+                                        <option value="shopping_cidade">Shopping Cidade</option>
+                                        <option value="casa_do_cidadao_ipanema">Casa do Cidadão Ipanema</option>
+                                        <option value="terminal_sao_bento">Terminal São Bento</option>
+                                        <option value="trujilo">Trujilo</option>
+                                        <option value="wanel_ville">Wanel Ville</option>
+                                        <option value="parque_dos_espanhois">Parque dos Espanhóis</option>
+                                        <option value="parque_do_campolim">Parque do Campolim</option>
+                                    </select>
+                                </div>
+                            </div>
+
+                            <div class="botao">
+                                <button class="emprestar" ><a style="text-decoration: none;color:white" href="Home.html">Emprestar</a></button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide cards">
+                        <div class="conteudo_cards">
+                            <div class="imagem">
+                                <img src="midia/trujilo.png" alt="Unidade trujilo">
+                            </div>
+
+                            <div class="nome_endereco">
+                                <span class="nome">Trujilo</span>
+                                <span class="endereco">Avenida General Osório</span>
+                                <span class="endereco">próximo à UNITEN</span>
+                                <span class="bikes_disponiveis">Bicicletas Disponíveis: XXXX</span>
+                                <span class="local_devolucao">Onde será a devolução da bike ?</span>
+                                <div class="select">
+                                    <select name="format" id="format">
+                                        <option selected disabled>Escolha a unidade</option>
+                                        <option value="praca_los_angeles">Praça Los Angeles</option>
+                                        <option value="escultura_bicicleta">Escultura Bicicleta</option>
+                                        <option value="terminal_santo_antonio">Terminal Santo Antônio</option>
+                                        <option value="bombeiros">Bombeiros</option>
+                                        <option value="parque_das_aguas">Parque das Águas</option>
+                                        <option value="paco_municipal">Paço Municipal</option>
+                                        <option value="uph_zona_norte">UPH Zona Norte</option>
+                                        <option value="maria_antonia_prado">Maria Antônia Prado</option>
+                                        <option value="shopping_cidade">Shopping Cidade</option>
+                                        <option value="casa_do_cidadao_ipanema">Casa do Cidadão Ipanema</option>
+                                        <option value="terminal_sao_bento">Terminal São Bento</option>
+                                        <option value="trujilo">Trujilo</option>
+                                        <option value="wanel_ville">Wanel Ville</option>
+                                        <option value="parque_dos_espanhois">Parque dos Espanhóis</option>
+                                        <option value="parque_do_campolim">Parque do Campolim</option>
+                                    </select>
+                                </div>
+                            </div>
+
+                            <div class="botao">
+                                <button class="emprestar" ><a style="text-decoration: none;color:white" href="Home.html">Emprestar</a></button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide cards">
+                        <div class="conteudo_cards">
+                            <div class="imagem">
+                                <img src="midia/wanel_ville.png" alt="Unidade Wanel Ville">
+                            </div>
+
+                            <div class="nome_endereco">
+                                <span class="nome">Wanel Ville</span>
+                                <span class="endereco">Avenida Elias Maluf com</span>
+                                <span class="endereco">Avenida Paulo Emanuel de Almeida</span>
+                                <span class="bikes_disponiveis">Bicicletas Disponíveis: XXXX</span>
+                                <span class="local_devolucao">Onde será a devolução da bike ?</span>
+                                <div class="select">
+                                    <select name="format" id="format">
+                                        <option selected disabled>Escolha a unidade</option>
+                                        <option value="praca_los_angeles">Praça Los Angeles</option>
+                                        <option value="escultura_bicicleta">Escultura Bicicleta</option>
+                                        <option value="terminal_santo_antonio">Terminal Santo Antônio</option>
+                                        <option value="bombeiros">Bombeiros</option>
+                                        <option value="parque_das_aguas">Parque das Águas</option>
+                                        <option value="paco_municipal">Paço Municipal</option>
+                                        <option value="uph_zona_norte">UPH Zona Norte</option>
+                                        <option value="maria_antonia_prado">Maria Antônia Prado</option>
+                                        <option value="shopping_cidade">Shopping Cidade</option>
+                                        <option value="casa_do_cidadao_ipanema">Casa do Cidadão Ipanema</option>
+                                        <option value="terminal_sao_bento">Terminal São Bento</option>
+                                        <option value="trujilo">Trujilo</option>
+                                        <option value="wanel_ville">Wanel Ville</option>
+                                        <option value="parque_dos_espanhois">Parque dos Espanhóis</option>
+                                        <option value="parque_do_campolim">Parque do Campolim</option>
+                                    </select>
+                                </div>
+                            </div>
+
+                            <div class="botao">
+                                <button class="emprestar" ><a style="text-decoration: none;color:white" href="Home.html">Emprestar</a></button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide cards">
+                        <div class="conteudo_cards">
+                            <div class="imagem">
+                                <img src="midia/parque_dos_espanhois.png" alt="Unidade Parque dos Espanhóis">
+                            </div>
+
+                            <div class="nome_endereco">
+                                <span class="nome">Parque dos Espanhóis</span>
+                                <span class="endereco">Doutor Campos Salles</span>
+                                <span class="bikes_disponiveis">Bicicletas Disponíveis: XXXX</span>
+                                <span class="local_devolucao">Onde será a devolução da bike ?</span>
+                                <div class="select">
+                                    <select name="format" id="format">
+                                        <option selected disabled>Escolha a unidade</option>
+                                        <option value="praca_los_angeles">Praça Los Angeles</option>
+                                        <option value="escultura_bicicleta">Escultura Bicicleta</option>
+                                        <option value="terminal_santo_antonio">Terminal Santo Antônio</option>
+                                        <option value="bombeiros">Bombeiros</option>
+                                        <option value="parque_das_aguas">Parque das Águas</option>
+                                        <option value="paco_municipal">Paço Municipal</option>
+                                        <option value="uph_zona_norte">UPH Zona Norte</option>
+                                        <option value="maria_antonia_prado">Maria Antônia Prado</option>
+                                        <option value="shopping_cidade">Shopping Cidade</option>
+                                        <option value="casa_do_cidadao_ipanema">Casa do Cidadão Ipanema</option>
+                                        <option value="terminal_sao_bento">Terminal São Bento</option>
+                                        <option value="trujilo">Trujilo</option>
+                                        <option value="wanel_ville">Wanel Ville</option>
+                                        <option value="parque_dos_espanhois">Parque dos Espanhóis</option>
+                                        <option value="parque_do_campolim">Parque do Campolim</option>
+                                    </select>
+                                </div>
+                            </div>
+
+                            <div class="botao">
+                                <button class="emprestar" ><a style="text-decoration: none;color:white" href="Home.html">Emprestar</a></button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide cards">
+                        <div class="conteudo_cards">
+                            <div class="imagem">
+                                <img src="midia/parque_campolim.png" alt="Unidade Parque do Campolim">
+                            </div>
+
+                            <div class="nome_endereco">
+                                <span class="nome">Parque do Campolim</span>
+                                <span class="endereco">Parque Carlos Alberto de Souza</span>
+                                <span class="bikes_disponiveis">Bicicletas Disponíveis: XXXX</span>
+                                <span class="local_devolucao">Onde será a devolução da bike ?</span>
+                                <div class="select">
+                                    <select name="format" id="format">
+                                        <option selected disabled>Escolha a unidade</option>
+                                        <option value="praca_los_angeles">Praça Los Angeles</option>
+                                        <option value="escultura_bicicleta">Escultura Bicicleta</option>
+                                        <option value="terminal_santo_antonio">Terminal Santo Antônio</option>
+                                        <option value="bombeiros">Bombeiros</option>
+                                        <option value="parque_das_aguas">Parque das Águas</option>
+                                        <option value="paco_municipal">Paço Municipal</option>
+                                        <option value="uph_zona_norte">UPH Zona Norte</option>
+                                        <option value="maria_antonia_prado">Maria Antônia Prado</option>
+                                        <option value="shopping_cidade">Shopping Cidade</option>
+                                        <option value="casa_do_cidadao_ipanema">Casa do Cidadão Ipanema</option>
+                                        <option value="terminal_sao_bento">Terminal São Bento</option>
+                                        <option value="trujilo">Trujilo</option>
+                                        <option value="wanel_ville">Wanel Ville</option>
+                                        <option value="parque_dos_espanhois">Parque dos Espanhóis</option>
+                                        <option value="parque_do_campolim">Parque do Campolim</option>
+                                    </select>
+                                </div>
+                            </div>
+
+                            <div class="botao">
+                                <button class="emprestar" ><a style="text-decoration: none;color:white" href="Home.html">Emprestar</a></button>
+                            </div>
+                        </div>
+                    </div>
+                    <!--FIM DAS UNIDADES-->
+
+
+                </div>
+
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-pagination"></div>
+
+            </div>
+        </section>
+
+    
+        <!--PRA FICAR RESPONSIVA-->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        <!--JS DO SWIPER-->
+        <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+        <!--INICIALIZADOR DO SWIPER-->
+        <script>
+            var currentSlidesPerView;
+
+            function updateSwiperSlides(windowWidth) {
+                var totalSlidesPerView;
+                if (windowWidth > 1000) {
+                    totalSlidesPerView = 3;
+                } 
+                else if (windowWidth > 800) {
+                    totalSlidesPerView = 2;
+                }
+                else {
+                    totalSlidesPerView = 1;
+                }
+
+                if (currentSlidesPerView === totalSlidesPerView) return;
+                    currentSlidesPerView = totalSlidesPerView;
+
+                new Swiper('.mySwiper', {
+                    slidesPerView: currentSlidesPerView,
+                    spaceBetween: 10,
+                    slidesPerGroup: currentSlidesPerView,
+                    loop: true,
+                    loopFillGroupWithBlank: false,
+                    pagination: {
+                        el: '.swiper-pagination',
+                        clickable: true,
+                        },
+                    navigation: {
+                        nextEl: '.swiper-button-next',
+                        prevEl: '.swiper-button-prev',
+                        },
+                    });
+            }
+
+        //size
+        $(document).ready(function () {
+            windowWidth = $(window).width();
+            updateSwiperSlides(windowWidth);
+
+            //resize
+            $(window).resize(function () {
+                windowWidth = $(window).width();
+                updateSwiperSlides(windowWidth);
+            });
+        });
+    </script>
+
+</body>
+</html>

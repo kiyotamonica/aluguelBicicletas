@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/stilo_iniciar.css">
+
+    <script src="https://kit.fontawesome.com/fe63ba78b9.js" crossorigin="anonymous"></script>
+    <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script src="script/map.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBMASaFyEG9ByJDX85cHyiFMS-aisHjvz4&callback=initMap" async defer></script>
+    <script src="script/animation.js"></script>
+    <title>Sorobike</title>
+
+</head>
+<body>
+    <!--Container pincipal-->
+    <div class="container">
+         <!--Menu principal-->
+        <nav>
+            <div id="userInformation"class="nav-item" style="display:flex;align-items: center;flex-wrap: wrap; flex-grow: 1;">
+                <img src="midia/user-logo.png">
+                <p class="text">Gustavo Tambelli</p>
+            </div>
+            <div class="nav-item">
+                <a href="#" id="btn-menu"><img src="midia/menu-burger.png"></a>
+            </div>
+        </nav>
+        <!--Botões do menu-->
+        <div class="menu">
+            <div class="item-menu-top">
+                <img src="midia/user-logo.png">
+                <p class="text">Olá ! Seja bem-vindo,<br> Gustavo Tambelli</p>
+            </div>
+            <div class="item-menu">
+                <a href="Cadastro.html" ><p>Informaçoes da conta</p></a>
+            </div>
+            
+            <div class="item-menu">
+                <a href="#"><p>Editar Perfil</p></a>
+            </div>
+            
+            <div class="item-menu">
+                <a href="#"><p>Histórico de Emprestimos</p></a>
+            </div>
+           
+            <div class="item-menu">
+                <a href="index.html"><p>Fazer Logout</p></a>
+            </div>
+            
+        </div>
+        <!--Mapa da aplicação-->
+        <div class="content-map">
+            <!--DIV do Mapa-->
+            <div id="map">
+
+            </div>
+            <!--Menu iniciar emprestimo-->
+            <div class="pagina_iniciar">
+                <div class="icone_seta">
+                    <div class="icone">
+                        <i class="fa-solid fa-chevron-down"></i>
+                    </div>
+                </div>
+            <div class="botoes-iniciar">
+                <div class="botao_iniciar_aluguel">
+                    <button class="iniciar_aluguel"><a style="text-decoration: none; color: white;" href="pag_aluguel.html">Iniciar Emprestimo</a></button>
+                </div>
+        
+                <div class="botao_cancelar_aluguel">
+                    <button class="cancelar_aluguel">Cancelar Emprestimo</button>
+                </div>
+        
+                <div class="botao_telefones">
+                    <p class="telefone" style="color: white;">Telefones para Contato</p>
+                    <h1 style="margin-top: 2%;">Gustavo Tambelli Rodrigues</h1>
+                    <h2>(15) 99861-0888</h2>
+                    <h3>Patrick Nunes de Souza</h3>
+                    <h4>(15) 99145-9102</h4>
+                </div>
+        
+                <div class="botao_sobre">
+                    <p  style="color: white;" class="sobre">Sobre o Aplicativo</p>
+                    <p class="text" style="padding: 20px 30px;">Este aplicativo foi desenvolvido por um grupo de amigos cursando Engenharia de Computação. Com a finalidade de construir e validar o projeto proposto pela disciplina de UPX, o grupo 4 visa através desse aplicativo, auxiliar e facilitar a utilização do aluguel de bicicletas disponibilizadas pela Prefeitura Municipal de Sorocaba.</p>
+                </div>
+            </div>
+        </div>
+        </div>
+    </div>
+</body>
+</html>

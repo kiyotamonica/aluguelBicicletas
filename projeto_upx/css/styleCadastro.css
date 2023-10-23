@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200;300;500;600&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Dosis', sans-serif;
+}
+
+.container{
+    background: linear-gradient(180deg, #164D59 0.79%, #88BF96 99.26%);
+    max-width: 1200px;
+    min-width: 300px;
+    min-height: 100vh;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.card-title{
+    background-color: #0B3140;
+    display: flex;
+    border-bottom-right-radius: 100px;
+    font-family: 'Fredoka One', cursive;
+    letter-spacing: 0.01em;
+    text-transform: capitalize;
+
+}
+.card-title p{
+    margin: 12vh 0;
+    text-align: center;
+    align-self: center;
+    font-size: 48px;
+    font-weight: bold;
+    color: white;
+    width: 100%;
+}
+
+.form-cadastro{
+    flex-grow: 1;
+    display: grid;
+}
+
+.item-form{
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+    font-size: 120%;
+    
+}
+
+.item-form input {
+    width: 100%;
+    height: 40px;
+    border-radius: 10px;
+    border: none;
+    margin: 0 5px;
+    padding: 0 5%;
+    align-self: center;
+}
+
+.btn{
+    color: white;
+    height: 40px;
+    width: 108px;
+    border: 2px solid #000;
+    border-radius: 20px;
+    background-color: #0B3140;
+    margin: 0 5px;
+    font-weight:bold;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
+}
+#letra-link{
+    color: white;
+    height: 40px;
+    width: 108px;
+    
+    text-decoration: none;
+    
+    }
+
+a:hover{
+
+    color: #c4c4c46b;
+    transition: 1000ms;
+    border: solid #c4c4c46b 1px;
+    border-radius: 8px;
+    padding: 1%;
+
+}
+    
+a:visited{
+    color: white;
+    height: 40px;
+    width: 108px;
+    
+    text-decoration: none;
+        
+}
+.error::placeholder{
+    color: rgba(255, 0, 0, 0.692);
+    border :  2px rgba(255, 0, 0, 0.534) solid;
+    border-radius: 10px;
+    padding: 2%;
+}

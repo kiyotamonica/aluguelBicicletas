@@ -1,0 +1,140 @@
+/* FONTES UTILIZADAS */
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200;300;500;600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Dosis', sans-serif;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(180deg, #164D59 0%, #88BF96 100%);
+}
+
+section{
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.swiper{
+    width: 90vw;
+}
+
+section .cards .imagem{
+    height: 140px;
+    width: 140px;
+    border-radius: 50%;
+    padding: 3px;
+    background: #164D59;
+}
+
+section .cards .imagem img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 3px solid #F2F2F2;
+}
+
+.cards{
+    position: relative;
+    background: #164D59;
+    border-radius: 20px;
+    margin: 20px 0;
+    width: 80vw;
+}
+
+.cards::before{
+    content: "";
+    position: absolute;
+    height: 30%;
+    width: 100%;
+    background: #0B3140;
+    border-radius: 20px 20px 0 0;
+}
+
+.cards .conteudo_cards{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+    position: relative;
+    z-index: 100;
+}
+
+.cards .nome_endereco{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.nome_endereco .nome{
+    font-size: 30px;
+    font-weight: 600;
+    color: #F2F2F2;
+    margin-top: 25px;
+}
+
+.nome_endereco .endereco{
+    font-size: 20px;
+    font-weight: 500;
+    color: #F2F2F2;
+}
+
+.nome_endereco .bikes_disponiveis{
+    font-size: 20px;
+    font-weight: 300;
+    color: #F2F2F2;
+    margin-top: 20px;
+}
+
+.nome_endereco .local_devolucao{
+    font-size: 20px;
+    font-weight: 300;
+    color: #F2F2F2;
+    margin-top: 20px;
+}
+
+.cards .botao{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.cards .botao button{
+    background: #458C78;
+    outline: none;
+    border: none;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
+    padding: 8px 22px;
+    color: #F2F2F2;
+    border-radius: 20px;
+    font-size: 20px;
+    transition: all 0.5s ease;
+}
+
+.swiper-pagination-clickable .swiper-pagination-bullet{
+    height: 7px;
+    width: 26px;
+    border-radius: 25px;
+    background: #0B3140;
+}
+
+select {
+    position: relative;
+    display: flex;
+    line-height: 2;
+    background: #0B3140;
+    overflow: hidden;
+    border-radius: 20px;
+    color: #F2F2F2;
+    height: 3vh;
+}
+
